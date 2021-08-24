@@ -361,3 +361,16 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Wonderbill-API/src/controllers - old/*.js
+/Wonderbill-API/src/controllers - old/*.js.map
+/Wonderbill-API/src/interfaces/*.js
+/Wonderbill-API/src/interfaces/*.js.map
+/Wonderbill-API/src/routes/*.js
+/Wonderbill-API/src/routes/*.js.map
+/Wonderbill-API/src/services/*.js
+/Wonderbill-API/src/services/*.js.map
+/Wonderbill-API/tests/*spec.js
+/Wonderbill-API/tests/*spec.js.map
+/Wonderbill-API/tests/*tests.js
+/Wonderbill-API/tests/*tests.js.map
+/Wonderbill-API/.nyc_output

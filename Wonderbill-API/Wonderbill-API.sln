@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Wonderbill-API", "Wonderbill-API.njsproj", "{04C29390-21A5-448E-8587-7D1EE16C25A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04C29390-21A5-448E-8587-7D1EE16C25A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C29390-21A5-448E-8587-7D1EE16C25A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C29390-21A5-448E-8587-7D1EE16C25A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C29390-21A5-448E-8587-7D1EE16C25A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAD82315-4236-46D7-91FB-E61D951EEC63}
+	EndGlobalSection
+EndGlobal

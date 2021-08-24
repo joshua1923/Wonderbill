@@ -1,0 +1,50 @@
+{
+  "name": "wonderbill-api",
+  "version": "0.0.0",
+  "description": "Wonderbill-API",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "nodemon server.ts",
+    "test": "mocha tests --timeout 6000",
+    "check-coverage": "nyc mocha tests"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/axios-mock-adapter": "^1.10.0",
+    "@types/body-parser": "^1.19.1",
+    "@types/chai": "^4.2.21",
+    "@types/dotenv": "^8.2.0",
+    "@types/jsonschema": "^1.1.1",
+    "@types/mocha": "^9.0.0",
+    "@types/nock": "^11.1.0",
+    "@types/node": "^14.14.7",
+    "@types/sinon": "^10.0.2",
+    "@types/sinon-chai": "^3.2.5",
+    "axios-mock-adapter": "^1.20.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.0",
+    "nock": "^13.1.2",
+    "node-mocks-http": "^1.10.1",
+    "nodemon": "^2.0.12",
+    "sinon-chai": "^3.7.0",
+    "ts-jest": "^27.0.5",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "exponential-backoff": "^3.1.0",
+    "express": "^4.17.1",
+    "jsonschema": "^1.4.0",
+    "nyc": "^15.1.0",
+    "sinon": "^11.1.2",
+    "ts-node": "^10.2.1"
+  }
+}
